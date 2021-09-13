@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: rgb(203, 178, 206);
+    display:flex;
+    justify-content: center;
+    transform: translateY(25vh);
+}
+.container
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(255, 2, 2, 0.05);
+    margin: 20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 350px;
+}
+.container h3
+{
+    margin: 18px;
+    font-size: 18px;
+}
+.container div
+{
+    margin: 18px;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    color:#ff3b00;
+}
+.container .btn
+{
+    margin: 18px;
+    padding: 10px;
+    border-radius: 11px;
+    border: 3px solid #dea2dd;
+    color: #df2adc;
+}
+.container .btn:hover
+{
+    background-color: #df2adc;
+    color: white;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+@media (max-width:480px) {
+    body
+    {
+        background: rgb(203, 178, 206);
+        display:flex;
+        justify-content: center;
+        transform: translateY(35vh);
+    }
+    .container
+    {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:rgba(255, 2, 2, 0.05);
+        margin: 20px;
+        top: -13vh;
+        box-shadow:0 15px 35px rgba(0,0,0,0.2);
+        border-radius:15px;
+        backdrop-filter: blur(10px);
+        width: 300px;
+        height: 350px;
+    }
+        .container h3
+    {
+        margin: 18px;
+        font-size: 18px;
+    }
+    .container div
+    {
+        margin: 18px;
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        color:#ff3b00;
+    }
+    .container .btn
+    {
+        margin: 18px;
+        padding: 10px;
+        border-radius: 11px;
+        border: 3px solid #dea2dd;
+        color: #df2adc;
+    }
+    .container .btn:hover
+    {
+        background-color: #df2adc;
+        color: white;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+}
